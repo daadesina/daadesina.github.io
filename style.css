@@ -1,30 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
-    *{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 2.5vw;
-        margin: 0 0 0 0;
-        box-sizing: border-box;
-        padding: 2vw 2vw 2vw 2vw;
-    }
-    header{
-        background-color: #D0957E;
-        text-align: center;
-        width: 100%;
-    }
-    logo{
-        letter-spacing: 1vw;
-        font-size: 4vw;
-        font-weight: 800;
-        font-family: 'Lora', serif;
-    }
-    .headlogo{
-        font-size: 4vw;
-        font-weight: 800;
-    }
-    body{
-        background-image: url(/Untitled-2.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        padding: 2vw 2vw 2vw 2vw;
-    }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 1vw;
+    text-align: center;
+    background-image: url(/Africa.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+header{
+    background-color: #D0957E;
+    font-size: 4vw;
+    text-align: center;
+}
+logo{
+    letter-spacing: 1vw;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+}
+.headlogo{
+    font-weight: 500;
+}
+main{
+    margin-top: 3px;
+}
+nav {
+    border: 1vw solid #D0957E;
+    border-radius: 3vw;
+    margin: 0 auto 1vw;
+    max-width: 60vw;
+    font-size: 4vw;
+    line-height: 8vw;
+}
+h2{
+    padding: 1vw;
+    background-color: #D0957E;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    border-top: 1vw solid #D0957E;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li a{
+    display: block;
+}
+li a:hover,
+li a:focus{
+    background: #D0957E;
+}
+li:last-child a{
+    border-radius: 0 0 2vw 2vw;
+}
