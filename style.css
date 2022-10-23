@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
-    /**/
     *{
         font-family: 'Times New Roman', Times, serif;
         font-size: 2.5vw;
-        margin: 0vw;
+        margin: 0 0 0 0;
         box-sizing: border-box;
         padding: 2vw 2vw 2vw 2vw;
     }
@@ -23,7 +22,7 @@
         font-weight: 800;
     }
     body{
-        background-image: url(/Untitled-1.png);
+        background-image: url(/Untitled-2.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
