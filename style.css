@@ -8,7 +8,7 @@
 }
 body {
     margin: 1vw;
-    text-align: center;
+    
     
     height: 100vh;
     background-image: url(/Africa.png);
@@ -23,8 +23,8 @@ header{
     background-color: #D0957E;
     font-size: 4vw;
     text-align: left;
-    padding-top: 2vh;
     padding-left: 1vw;
+    border-radius: 2vw;
 }
 logo{
     letter-spacing: 1vw;
@@ -37,13 +37,16 @@ logo{
 }
 .contact{
     text-align: right;
-    color: darkslategrey;
     padding-right: 1vw;
     padding-top: 3vh;
     font-size: 3vw;
 }
+a i{
+    color: darkslategrey;
+}
 main{
     margin-top: 20vh;
+    text-align: center;
 }
 nav {
     border: 1vw solid #D0957E;
