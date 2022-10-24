@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Noto+Serif&display=swap');
 
 
 *{
@@ -22,22 +22,25 @@ body {
 header{
     background-color: #D0957E;
     font-size: 4vw;
-    text-align: center;
+    text-align: left;
     padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-left: 1vw;
 }
 logo{
     letter-spacing: 1vw;
-    font-weight: bolder;
+    font-weight: bolder;    
     font-family: 'Lora', serif;
+    
 }
 .headlogo{
     font: weight 600;
 }
-.contant{
+.contact{
     text-align: right;
-    padding: 1vw 1vw 1vw 1vw;
     color: darkslategrey;
+    padding-right: 1vw;
+    padding-top: 3vh;
+    font-size: 3vw;
 }
 main{
     margin-top: 20vh;
