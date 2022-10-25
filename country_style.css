@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Noto+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 1vw;
+    height: 100vh;
+    background-image: url(/Image/background\ Africa.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    position: fixed;
+    top: 0;
+    padding-top: 1vw;
+    text-align: left;
+    padding-left: 1vw;
+    border-radius: 2vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    height: 10vw;
+}
+.contact{
+    text-align: right;
+    padding-right: 1vw;
+    font-size: 3vw;
+}
+a i{
+    color: white;
+    padding-left: 2vw;
+}
+main{
+    margin-top: 20%;
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+table{
+    color: white;
+}
