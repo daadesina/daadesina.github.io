@@ -28,7 +28,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     background-color: black;
-    height: 10vw;
+    height: 15vw;
 }
 .contact{
     text-align: right;
