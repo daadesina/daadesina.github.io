@@ -55,3 +55,6 @@ a{
 td{
     font-size: 2.5vw;
 }
+table, tr, td {
+    padding-top: 3vw;
+}
